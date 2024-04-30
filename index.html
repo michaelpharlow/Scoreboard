@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Football Scoreboard</h1>
+        <div class="container">
+            <div>
+                <h2 class="scrTitle">HOME</h2>
+                <p class="score" id="homeScr">0</p>
+                <div class="scrButtons">
+                    <button onclick="addPoints('home', parseFloat(document.getElementById('homeScr').textContent), 1)">+1</button>
+                    <button onclick="addPoints('home', parseFloat(document.getElementById('homeScr').textContent), 3)">+3</button>
+                    <button onclick="addPoints('home', parseFloat(document.getElementById('homeScr').textContent), 6)">+6</button>
+                </div>
+            </div>
+            <div>
+                <h2 class="scrTitle">GUEST</h2>
+                <p class="score" id="guestScr">0</p>
+                <div class="scrButtons">
+                    <button onclick="addPoints('guest', parseFloat(document.getElementById('guestScr').textContent), 1)">+1</button>
+                    <button onclick="addPoints('guest', parseFloat(document.getElementById('guestScr').textContent), 3)">+3</button>
+                    <button onclick="addPoints('guest', parseFloat(document.getElementById('guestScr').textContent), 6)">+6</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

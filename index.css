@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #065F46;
+    border: solid 4px #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 575px;
+    height: 385px;
+    font-size: 30px;
+}
+
+.score {
+    font-size: 70px;
+    margin: 0;
+    width: 155px;
+    height: 120px;
+    background-color: #000;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #f94f6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrTitle {
+    margin: 50px 0 10px 0;
+}
+
+.scrButtons {
+    width: 155px;
+    font-size: 25px;
+    margin: 15px 0;
+}
