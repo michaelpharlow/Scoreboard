@@ -13,6 +13,7 @@ body {
     width: 575px;
     height: 385px;
     font-size: 30px;
+    margin: auto;
 }
 
 .score {
